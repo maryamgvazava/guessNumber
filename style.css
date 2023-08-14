@@ -107,10 +107,35 @@ h1 {
 
 .message {
   margin-bottom: 4rem;
-  height: 2rem;
+/*   height: 2rem; */
 }
 
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+     h1{
+      font-size: 6rem;
+      margin-bottom: 160px;
+     }
+
+     .between{
+      margin: 20px;
+     }
+
+      .again{
+        margin: 50px;
+        padding: 20px;
+      }
+
+      .message{
+          height: 4rem;
+      }
+
+      main{
+        margin-top: 40px;
+      }
+}
+
 
