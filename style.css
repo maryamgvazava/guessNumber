@@ -136,6 +136,8 @@ h1 {
       main{
         margin-top: 40px;
       }
+  body{
+    overflow-y:hidden;
 }
 
 
